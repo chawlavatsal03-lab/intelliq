@@ -1,0 +1,52 @@
+
+# INTELLIQ - Git Ignore Configuration
+
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment variables and credentials
+.env
+.env.*
+!.env.example
+
+# Testing and coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Logs - preserve placeholder
+logs/*
+!logs/.gitkeep
+
+# Raw datasets - preserve placeholder
+data/raw/*
+!data/raw/.gitkeep
+
+# Processed datasets - preserve placeholder
+data/processed/*
+!data/processed/.gitkeep
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Local database files
+*.db
+*.sqlite
+*.sqlite3

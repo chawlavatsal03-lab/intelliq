@@ -1,0 +1,14 @@
+﻿# INTELLIQ - Core Python Dependencies
+
+# Data manipulation and numerical computing
+pandas
+numpy
+
+# Data acquisition
+requests
+
+# Environment and configuration management
+python-dotenv
+
+# Automated testing
+pytest
